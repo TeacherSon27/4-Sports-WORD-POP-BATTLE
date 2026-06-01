@@ -682,7 +682,9 @@
       background: transparent;
       color: var(--text);
       user-select: none;
-      touch-action: manipulation;
+      -webkit-user-select: none;
+      touch-action: none;
+      -webkit-tap-highlight-color: transparent;
       will-change: transform;
       backface-visibility: hidden;
       contain: layout paint style;
@@ -2957,6 +2959,42 @@
       setMoverPosition(drifter.element, drifter.x, drifter.y);
     }
 
+    function cancelSyntheticInput(event) {
+      if (event.cancelable) {
+        event.preventDefault();
+      }
+    }
+
+    function activateBubble(event, laneKey, bubble) {
+      if (event.type === "pointerdown" && event.pointerType === "mouse" && event.button !== 0) {
+        return;
+      }
+
+      cancelSyntheticInput(event);
+      popBubble(laneKey, bubble);
+    }
+
+    function bindBubbleInput(button, laneKey, bubble) {
+      if (window.PointerEvent) {
+        button.addEventListener("pointerdown", (event) => {
+          activateBubble(event, laneKey, bubble);
+        });
+        button.addEventListener("click", (event) => {
+          if (event.detail === 0) {
+            popBubble(laneKey, bubble);
+            return;
+          }
+          cancelSyntheticInput(event);
+        });
+        return;
+      }
+
+      button.addEventListener("touchstart", (event) => {
+        activateBubble(event, laneKey, bubble);
+      }, { passive: false });
+      button.addEventListener("click", () => popBubble(laneKey, bubble));
+    }
+
     function ensureAudio() {
       if (audio.initialized) {
         if (audio.ctx.state === "suspended") {
@@ -3428,6 +3466,7 @@
         const burstCooldownMax = (leanMotion ? 2.1 : 0.58) * roundCooldownScale * iPadCooldownBoost;
         const button = document.createElement("button");
         button.className = "bubble";
+        button.type = "button";
         button.style.width = `${radius * 2}px`;
         button.style.height = `${radius * 2}px`;
         button.innerHTML = createBubbleMarkup(text, assetSrc, type);
@@ -3468,7 +3507,7 @@
         updateBubbleStyle(bubble);
         setBubblePosition(bubble);
 
-        button.addEventListener("click", () => popBubble(laneKey, bubble));
+        bindBubbleInput(button, laneKey, bubble);
         field.appendChild(button);
         bubbles.push(bubble);
       });
