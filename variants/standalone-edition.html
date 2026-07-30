@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Pop Battle Standalone</title>
+  <link rel="stylesheet" href="../css/standalone-edition.css">
+</head>
+<body>
+  <div class="game" id="game-root">
+    <section class="hud">
+      <div class="hud-main">
+        <div class="hud-corner">
+          <div class="actions">
+            <button class="btn" id="start-btn">Start Battle</button>
+            <button class="btn" id="next-btn">Next Round</button>
+            <button class="btn" id="reset-btn">Reset Match</button>
+          </div>
+          <div class="actions">
+            <button class="btn btn-toggle" id="fullscreen-btn" aria-pressed="false">Fullscreen</button>
+            <button class="btn btn-toggle" id="audio-btn" aria-pressed="true">Sound: On</button>
+            <button class="btn" id="end-btn">End The Game</button>
+          </div>
+        </div>
+
+        <div class="title-block">
+          <h1>Word Pop Battle</h1>
+          <p>Standalone HTML edition with generated art and no external assets.</p>
+        </div>
+
+        <div class="hud-side">
+          <div class="timer-wrap">
+            <div class="timer-label">Time Left</div>
+            <div class="timer-screen">
+              <div class="timer-value" id="timer">18</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hud-center">
+        <div class="hud-topline">
+          <div class="round-pill" id="round-pill">Round 1 / 12</div>
+          <div class="prompt" id="prompt">Tap <span class="accent">Start Battle</span> to launch the first word wave.</div>
+        </div>
+        <div class="progress-shell">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="mini-note" id="hint">Both teams play at the same time. Pop the correct words in your half only.</div>
+      </div>
+    </section>
+
+    <div class="arena-wrap">
+      <section class="lane lane-left">
+        <div class="lane-header">
+          <div>
+            <h2 class="lane-title">Team A</h2>
+            <div class="mini-note" id="left-status">Ready to pop.</div>
+          </div>
+          <div class="lane-meta">
+            <div>Score</div>
+            <div class="score" id="score-left">0</div>
+          </div>
+        </div>
+        <div class="field" id="field-left">
+          <div class="feedback" id="feedback-left"></div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="lane lane-right">
+        <div class="lane-header">
+          <div>
+            <h2 class="lane-title">Team B</h2>
+            <div class="mini-note" id="right-status">Ready to pop.</div>
+          </div>
+          <div class="lane-meta">
+            <div>Score</div>
+            <div class="score" id="score-right">0</div>
+          </div>
+        </div>
+        <div class="field" id="field-right">
+          <div class="feedback" id="feedback-right"></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="winner-banner hidden" id="winner-banner">
+      <div class="winner-shell">
+        <div class="winner-stars" id="winner-stars" aria-hidden="true"></div>
+        <div class="winner-confetti" id="winner-confetti" aria-hidden="true"></div>
+        <div class="winner-floaters" aria-hidden="true">
+          <div class="winner-floater" style="--left:-3%;--top:1%;--size:430px;--duration:18s;"><img id="floater-a" alt=""></div>
+          <div class="winner-floater" style="--left:67%;--top:-2%;--size:420px;--duration:20s;"><img id="floater-b" alt=""></div>
+          <div class="winner-floater" style="--left:-2%;--top:50%;--size:400px;--duration:22s;"><img id="floater-c" alt=""></div>
+          <div class="winner-floater" style="--left:69%;--top:49%;--size:410px;--duration:19s;"><img id="floater-d" alt=""></div>
+        </div>
+        <div class="winner-content">
+          <div class="winner-kicker">Victory Splash</div>
+          <p class="winner-team" id="winner-team">Team A</p>
+          <h2 class="winner-title">Winner Celebration</h2>
+          <p class="winner-result" id="winner-result">Team A wins 120 - 90!</p>
+          <p class="winner-sub">Reset Match to dive back into the next battle.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="end-panel hidden" id="end-panel" aria-hidden="true">
+      <div class="end-card" role="dialog" aria-modal="true" aria-labelledby="end-title">
+        <div class="end-kicker">Code Required</div>
+        <h2 class="end-title" id="end-title">End The Game</h2>
+        <p class="end-copy">Enter the code to finish the match right now.</p>
+        <input class="end-input" id="end-code-input" type="password" inputmode="numeric" maxlength="3" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Enter code" aria-label="End game code">
+        <p class="end-status" id="end-status"></p>
+        <div class="end-actions">
+          <button class="btn" id="end-cancel-btn" type="button">Cancel</button>
+          <button class="btn" id="end-confirm-btn" type="button">Confirm End</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/standalone-edition.js"></script>
+</body>
+</html>

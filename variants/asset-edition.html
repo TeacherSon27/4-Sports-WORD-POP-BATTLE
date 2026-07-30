@@ -2,25 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <meta name="theme-color" content="#045b8f">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="Word Pop Battle">
-  <meta name="apple-mobile-web-app-title" content="Word Pop Battle">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="format-detection" content="telephone=no">
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="apple-touch-icon" href="./icons/word-pop-battle-icon-180.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="./icons/word-pop-battle-icon-120.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="./icons/word-pop-battle-icon-152.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="./icons/word-pop-battle-icon-167.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./icons/word-pop-battle-icon-180.png">
-  <link rel="apple-touch-icon-precomposed" href="./icons/word-pop-battle-icon-180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="./icons/word-pop-battle-icon-192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="./icons/word-pop-battle-icon-512.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Word Pop Battle</title>
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="../css/asset-edition.css">
 </head>
 <body>
   <div class="game" id="game-root">
@@ -50,10 +34,10 @@
           </div>
         </div>
         <div class="cover-art">
-          <div class="cover-art-card"><img src="./assets/current/game-asset-01-d31839a149.png" alt="SUP cover art"></div>
-          <div class="cover-art-card"><img src="./assets/current/game-asset-02-2fc50f2d75.png" alt="Snorkeling cover art"></div>
-          <div class="cover-art-card"><img src="./assets/current/game-asset-03-5c5db63503.png" alt="Swimming cover art"></div>
-          <div class="cover-art-card"><img src="./assets/current/game-asset-04-e63cf25fad.png" alt="Rock climbing cover art"></div>
+          <div class="cover-art-card"><img src="../assets/legacy/cover/cover-sup.png" alt="SUP cover art"></div>
+          <div class="cover-art-card"><img src="../assets/legacy/cover/cover-snorkeling.png" alt="Snorkeling cover art"></div>
+          <div class="cover-art-card"><img src="../assets/legacy/cover/cover-swimming.png" alt="Swimming cover art"></div>
+          <div class="cover-art-card"><img src="../assets/legacy/cover/cover-climbing.png" alt="Rock climbing cover art"></div>
         </div>
       </div>
     </section>
@@ -64,7 +48,6 @@
             <button class="btn btn-primary" id="start-btn">Start Battle</button>
             <button class="btn btn-secondary" id="next-btn">Next Round</button>
             <button class="btn btn-secondary" id="reset-btn">Reset Match</button>
-            <button class="btn btn-secondary" id="one-player-btn" aria-pressed="false">One Player Mode</button>
           </div>
           <div class="actions actions-utility">
             <button class="btn btn-secondary btn-toggle" id="fullscreen-btn" aria-pressed="false">Fullscreen</button>
@@ -79,7 +62,7 @@
         <div class="hud-side">
           <div class="timer-wrap">
             <div class="timer-label">Time Left</div>
-            <img class="timer-shell" src="./assets/current/game-asset-05-575f210fd0.png" alt="" aria-hidden="true">
+            <img class="timer-shell" src="../assets/legacy/ui/timer-clock.png" alt="" aria-hidden="true">
             <div class="timer-value" id="timer">18</div>
           </div>
         </div>
@@ -362,14 +345,14 @@
       </div>
     </div>
     <div class="arena">
-      <section class="lane lane-left" id="lane-left">
+      <section class="lane lane-left">
         <div class="lane-header">
           <div>
-            <h2 class="lane-title" id="title-left">Team A</h2>
+            <h2 class="lane-title">Team A</h2>
             <div class="mini-note" id="left-status">Ready to pop.</div>
           </div>
           <div class="lane-meta">
-            <div id="score-label-left">Score</div>
+            <div>Score</div>
             <div class="score" id="score-left">0</div>
           </div>
         </div>
@@ -378,14 +361,14 @@
         </div>
       </section>
 
-      <section class="lane lane-right" id="lane-right">
+      <section class="lane lane-right">
         <div class="lane-header">
           <div>
-            <h2 class="lane-title" id="title-right">Team B</h2>
+            <h2 class="lane-title">Team B</h2>
             <div class="mini-note" id="right-status">Ready to pop.</div>
           </div>
           <div class="lane-meta">
-            <div id="score-label-right">Score</div>
+            <div>Score</div>
             <div class="score" id="score-right">0</div>
           </div>
         </div>
@@ -502,17 +485,17 @@
         <span class="confetti" style="--left:98%;--color:#ff8f6b;--w:14px;--h:23px;--duration:5.8s;--delay:-0.8s;--drift:81px;"></span>
       </div>
       <div class="winner-floaters" aria-hidden="true">
-        <div class="winner-floater a" style="--left:3%;--top:6%;--size:300px;">
-          <img src="./assets/current/game-asset-01-d31839a149.png" alt="">
+        <div class="winner-floater a" style="--left:-3%;--top:1%;--size:470px;">
+          <img src="../assets/legacy/cover/cover-sup.png" alt="">
         </div>
-        <div class="winner-floater b" style="--left:75%;--top:4%;--size:285px;">
-          <img src="./assets/current/game-asset-02-2fc50f2d75.png" alt="">
+        <div class="winner-floater b" style="--left:69%;--top:-1%;--size:450px;">
+          <img src="../assets/legacy/cover/cover-snorkeling.png" alt="">
         </div>
-        <div class="winner-floater c" style="--left:4%;--top:61%;--size:270px;">
-          <img src="./assets/current/game-asset-03-5c5db63503.png" alt="">
+        <div class="winner-floater c" style="--left:-2%;--top:49%;--size:430px;">
+          <img src="../assets/legacy/cover/cover-swimming.png" alt="">
         </div>
-        <div class="winner-floater d" style="--left:76%;--top:60%;--size:280px;">
-          <img src="./assets/current/game-asset-04-e63cf25fad.png" alt="">
+        <div class="winner-floater d" style="--left:70%;--top:48%;--size:440px;">
+          <img src="../assets/legacy/cover/cover-climbing.png" alt="">
         </div>
       </div>
       <div class="winner-card" aria-hidden="true"></div>
@@ -537,33 +520,9 @@
         </div>
       </div>
     </div>
-    <div class="mode-panel hidden" id="one-player-panel" aria-hidden="true">
-      <div class="mode-card" role="dialog" aria-modal="true" aria-labelledby="one-player-title">
-        <div class="end-kicker">Code Required</div>
-        <h2 class="end-title" id="one-player-title">One Player Mode</h2>
-        <p class="end-copy">Enter the code to switch to the combined one-player dashboard. Wrong pictures will deduct points.</p>
-        <input class="end-input" id="one-player-code-input" type="password" inputmode="numeric" maxlength="3" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Enter code" aria-label="One player mode code">
-        <p class="end-status" id="one-player-status"></p>
-        <div class="end-actions">
-          <button class="btn btn-secondary" id="one-player-cancel-btn" type="button">Cancel</button>
-          <button class="btn btn-primary" id="one-player-confirm-btn" type="button">Switch Mode</button>
-        </div>
-      </div>
     </div>
-    <div class="result-panel hidden" id="result-panel" aria-hidden="true">
-      <div class="result-card" role="dialog" aria-modal="true" aria-labelledby="result-title">
-        <div class="end-kicker">One Player Result</div>
-        <h2 class="end-title" id="result-title">Try Again</h2>
-        <p class="end-copy" id="result-copy">Try again and get 300 points.</p>
-        <div class="end-actions">
-          <button class="btn btn-primary" id="result-close-btn" type="button">OK</button>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="ios-bottom-touch-guard" id="ios-bottom-touch-guard" aria-hidden="true"></div>
   </div>
 
-  <script src="./js/game.js"></script>
+  <script src="../js/asset-edition.js"></script>
 </body>
 </html>

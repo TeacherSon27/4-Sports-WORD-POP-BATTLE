@@ -1,0 +1,468 @@
+{
+  "sources": [
+    {
+      "name": "index.html",
+      "bytes": 158276,
+      "sha256": "56529e46574a97da37d763baab75bdeb346adefb9643f5e55770b8a6e6d6c587"
+    },
+    {
+      "name": "word-pop-battle.html",
+      "bytes": 128133,
+      "sha256": "c0bf22b60d58a75ea966c5154701d328078b9fc1025b9473af5bf58a17ea3998"
+    },
+    {
+      "name": "word-pop-battle-standalone.html",
+      "bytes": 76155,
+      "sha256": "3af27722e8b76d1b9c4481e2506a9eafc1b1ad5d7ed5b75b3b4ce91c45f67182"
+    }
+  ],
+  "copiedFileCount": 89,
+  "verifiedByteForByte": true,
+  "files": [
+    {
+      "path": "assets/current/game-asset-01-d31839a149.png",
+      "bytes": 849204,
+      "sha256": "d31839a149f4e374f7db120453543ca66ee5439a20a96ee9309814666e344a1d"
+    },
+    {
+      "path": "assets/current/game-asset-02-2fc50f2d75.png",
+      "bytes": 885738,
+      "sha256": "2fc50f2d75e429aad8ab8d25580a5cc3f6172df6281c445c2f3bae2dcb01e2d6"
+    },
+    {
+      "path": "assets/current/game-asset-03-5c5db63503.png",
+      "bytes": 736653,
+      "sha256": "5c5db6350305062593e0064355eb66cf9f352b67e600b803e5b36adfab3f8512"
+    },
+    {
+      "path": "assets/current/game-asset-04-e63cf25fad.png",
+      "bytes": 864351,
+      "sha256": "e63cf25fad52ba3c88cbf7ab942b6107fccd7c2433fe32fa545158e29e285a98"
+    },
+    {
+      "path": "assets/current/game-asset-05-575f210fd0.png",
+      "bytes": 189558,
+      "sha256": "575f210fd0b0f61379c5d29e506572ee2310a7330355a73e9f59f3124724a243"
+    },
+    {
+      "path": "assets/current/game-asset-06-b4128b831c.png",
+      "bytes": 326716,
+      "sha256": "b4128b831c0ad150e0ee6d17d2619bbcec015150250bcf3d3de38962b03d2b16"
+    },
+    {
+      "path": "assets/current/game-asset-07-1f9d627e9b.png",
+      "bytes": 463618,
+      "sha256": "1f9d627e9ba8fa2cba64d8de54471dbc471d5b92ac950d6f6f9955cfd0046b5c"
+    },
+    {
+      "path": "assets/current/game-asset-08-157278ef08.png",
+      "bytes": 463081,
+      "sha256": "157278ef0812ec60792378d030d4de5d6e5680ab3d823647b2af65655198939c"
+    },
+    {
+      "path": "assets/current/game-asset-09-a5c31d44a0.png",
+      "bytes": 507136,
+      "sha256": "a5c31d44a0d17f6df64a595f80c52508113053c0c7039c39198100ead73f9f63"
+    },
+    {
+      "path": "assets/current/game-asset-10-76813e9f10.png",
+      "bytes": 717041,
+      "sha256": "76813e9f10d98fd3ed5c22446a71259c801f308f740db6965ebe89239d30f029"
+    },
+    {
+      "path": "assets/current/game-asset-11-1ab3be8234.png",
+      "bytes": 415739,
+      "sha256": "1ab3be8234ad61bc97cb9456f051318514ccff468f5a0aa624f9259988f14d0a"
+    },
+    {
+      "path": "assets/current/game-asset-12-a2ce246c40.png",
+      "bytes": 675425,
+      "sha256": "a2ce246c40f68a42e1f9ab8cecbadfa18e8d941db606eebbe177202b89133ed3"
+    },
+    {
+      "path": "assets/current/game-asset-13-548dddb626.png",
+      "bytes": 690344,
+      "sha256": "548dddb62662e4a75e556e41bcd29416f0f1163ad454c340913923e7a55063b0"
+    },
+    {
+      "path": "assets/current/game-asset-14-d34e7f0474.png",
+      "bytes": 751444,
+      "sha256": "d34e7f0474403ed57a5afac4f708164f509054369bbe5b2747d7cae6d004eb8a"
+    },
+    {
+      "path": "assets/current/game-asset-15-f9d100f3d1.png",
+      "bytes": 648445,
+      "sha256": "f9d100f3d18577550987117b6dfe414438d04d153757067aaf2a7200ad2d2c8f"
+    },
+    {
+      "path": "assets/current/game-asset-16-c1221e81ad.png",
+      "bytes": 578735,
+      "sha256": "c1221e81ad92303992c6577c53e3523e296af50947b7629d4c1a9ac0bc2d3fac"
+    },
+    {
+      "path": "assets/current/game-asset-17-14fa9be9ff.png",
+      "bytes": 602653,
+      "sha256": "14fa9be9ffff2cc0c833528225317b9954865dc43276c101ef4674af66fa23c3"
+    },
+    {
+      "path": "assets/current/game-asset-18-ccc7d9e522.png",
+      "bytes": 503439,
+      "sha256": "ccc7d9e522659d57b75c12ebcf9d216310166fc541eb67eca1bc5f974cd59487"
+    },
+    {
+      "path": "assets/current/game-asset-19-be3e4e7a61.png",
+      "bytes": 770320,
+      "sha256": "be3e4e7a613479025ca6e62506dc5a8eb3884ffe72aeb875f114731ab2f72a8f"
+    },
+    {
+      "path": "assets/current/game-asset-20-d8a25f1378.png",
+      "bytes": 796104,
+      "sha256": "d8a25f137886dc1ba865d406acc10431ab44c8562664cb9733f1c32e7e4ac262"
+    },
+    {
+      "path": "assets/current/game-asset-21-c8a5474630.png",
+      "bytes": 645311,
+      "sha256": "c8a5474630e5e9198ab5399ac9d3285dd8fcd784dd8b92a3002c513689226969"
+    },
+    {
+      "path": "assets/current/game-asset-22-913e12b56c.png",
+      "bytes": 690582,
+      "sha256": "913e12b56c171280e6eaba88e1a2fcb99e81023c96f724f4e7bc1a9998b838e9"
+    },
+    {
+      "path": "assets/current/game-asset-23-426d100ee6.png",
+      "bytes": 400962,
+      "sha256": "426d100ee63f73986f5b2fbcb44ce272a8af86ff152a2ada4d8e742d812dee94"
+    },
+    {
+      "path": "assets/current/game-asset-24-742d8235e1.png",
+      "bytes": 281326,
+      "sha256": "742d8235e1fe630e4fb084dbb2b6b710c778a13809840508755096c731ecffc8"
+    },
+    {
+      "path": "assets/current/game-asset-25-1ad8f03bb2.png",
+      "bytes": 407375,
+      "sha256": "1ad8f03bb2f3b889f3e06b881d5a0cd2cba4fc36344583441e81f0cc4b01cea0"
+    },
+    {
+      "path": "assets/current/game-asset-26-6edd18d517.png",
+      "bytes": 500573,
+      "sha256": "6edd18d517afe67597263ca648503a916cc168b4a35ef6fc734afd7b97b4c953"
+    },
+    {
+      "path": "assets/current/game-asset-27-fda340277f.png",
+      "bytes": 705310,
+      "sha256": "fda340277feb9fe046af04a1442cedb177324fa7d181c4f8b18fb8ecc0929abe"
+    },
+    {
+      "path": "assets/current/game-asset-28-51afb0193d.png",
+      "bytes": 821062,
+      "sha256": "51afb0193dfc36c4892b536ffca5c8378e30f8ea5213ebcc1e4ccaa9a3e0a9c7"
+    },
+    {
+      "path": "assets/current/game-asset-29-ac2491c236.png",
+      "bytes": 746706,
+      "sha256": "ac2491c236fcb88a1264457fa9bcf00979fdc7bd73b9bf0c521e0d10ac7395d9"
+    },
+    {
+      "path": "assets/current/game-asset-30-8a8c92328e.png",
+      "bytes": 740147,
+      "sha256": "8a8c92328e660f333fdfc86ab3e439501d06fc4541b63c71c0174008d4a0b6a5"
+    },
+    {
+      "path": "assets/current/game-asset-31-c2097c2983.png",
+      "bytes": 231762,
+      "sha256": "c2097c2983901314958bd67dba00ffbf65860bb4c3848d71aa6bd322f6e5316a"
+    },
+    {
+      "path": "assets/current/game-asset-32-fd06e3e87e.png",
+      "bytes": 108299,
+      "sha256": "fd06e3e87eb14eb981a30f7c152680580ec52a5ea6b510e2b22ead6b9ce74b66"
+    },
+    {
+      "path": "assets/current/game-asset-33-445d463fec.png",
+      "bytes": 239239,
+      "sha256": "445d463fec4a4f4e3aad1ead7d2fe817846e77de3072a3bd32945da6a823111f"
+    },
+    {
+      "path": "assets/current/game-asset-34-3dde713ca1.png",
+      "bytes": 701517,
+      "sha256": "3dde713ca16ab328e8a8cd5f5380b11537180068ad2441ad1844afe15b6669f7"
+    },
+    {
+      "path": "assets/current/game-asset-35-13f5b74040.png",
+      "bytes": 703528,
+      "sha256": "13f5b740403f91048070d71c2fb7de0ba5ac89fa96993199c6bef2c243c3f9b1"
+    },
+    {
+      "path": "assets/current/game-asset-36-7e8340002d.png",
+      "bytes": 681478,
+      "sha256": "7e8340002d48627f6f7ce4d0cc2af5744d6b000f7673296da704dc617b6991e8"
+    },
+    {
+      "path": "assets/current/game-asset-37-f1a8c5b34e.png",
+      "bytes": 668801,
+      "sha256": "f1a8c5b34e796ddebf5db492047f58f517b2dc393e89a20b8ff5007640f8f03c"
+    },
+    {
+      "path": "assets/current/game-asset-38-515274e3f4.png",
+      "bytes": 820370,
+      "sha256": "515274e3f463e84894dbc9bc44ab91639c746f67390ffb69a61b924e73a125ce"
+    },
+    {
+      "path": "assets/current/game-asset-39-91da05f1cb.png",
+      "bytes": 798603,
+      "sha256": "91da05f1cbd52cc03f5fba523bc2a39eb7b73b7bf88f1d91449b10795e8a2669"
+    },
+    {
+      "path": "assets/current/game-asset-40-1d6d988b32.png",
+      "bytes": 829378,
+      "sha256": "1d6d988b327ba277063e28d3f6a2653b1ef8ae9be9e4f22d4731d6013f0a708f"
+    },
+    {
+      "path": "assets/current/game-asset-41-d627a5037f.png",
+      "bytes": 766048,
+      "sha256": "d627a5037f37faf6eeb9d4421f6186fe664f2329e7b0ab76a30719a76c0b349f"
+    },
+    {
+      "path": "assets/legacy/chalk.png",
+      "bytes": 1102703,
+      "sha256": "4ce97933084d8b7ac1e2ce8aa18a24c2abff28da71ac4811a518e2407a25ea44"
+    },
+    {
+      "path": "assets/legacy/climbing-shoes.png",
+      "bytes": 1201569,
+      "sha256": "0135fa1b16177355c59a4b949722fe7bd31d6a6c5e14ac9061d475b84a4e3028"
+    },
+    {
+      "path": "assets/legacy/cover/cover-climbing.png",
+      "bytes": 1320664,
+      "sha256": "d6d1a3eac4e8261478827e087982c66ebb6a6399a787efe0567c9641eabe911a"
+    },
+    {
+      "path": "assets/legacy/cover/cover-snorkeling.png",
+      "bytes": 1479132,
+      "sha256": "0597dd4953d7a3916ba60663caa62dd4c1f69765178d46f534cef8b9ca292b7b"
+    },
+    {
+      "path": "assets/legacy/cover/cover-sup.png",
+      "bytes": 1223440,
+      "sha256": "5fd1cb162c9e4aa4a40d25aa7fde7aee2e8de86e70fc45c3805488a713022e6e"
+    },
+    {
+      "path": "assets/legacy/cover/cover-swimming.png",
+      "bytes": 1030349,
+      "sha256": "04bdc31b562861642beff5be3239aaf5ed3b15a64ffd0d089edc216113a6add3"
+    },
+    {
+      "path": "assets/legacy/fins.png",
+      "bytes": 1013220,
+      "sha256": "63f6c03a706647b893ca35be1e3ca87fcb4f7e824079cdbf7ecfb2656be3ee4e"
+    },
+    {
+      "path": "assets/legacy/float.png",
+      "bytes": 1109294,
+      "sha256": "ea2b843d008b8fb2ba703d5b2337e0f4107088990cd06b7a8b224951d37b4bea"
+    },
+    {
+      "path": "assets/legacy/harness.png",
+      "bytes": 665746,
+      "sha256": "f4a531035ba2d5eb1475fe7db91664297159639021809a881bfd180dc974705e"
+    },
+    {
+      "path": "assets/legacy/helmet.png",
+      "bytes": 1164253,
+      "sha256": "abeb5eaaaeef8ca3aa6b5aeac44c8ce42ae2e4c0cdf2f52903416863767b317f"
+    },
+    {
+      "path": "assets/legacy/kickboard.png",
+      "bytes": 874301,
+      "sha256": "5ad8e8739c70d30067e5189720b0a58ba5438bb3746e62aaa9875b9bf6679a46"
+    },
+    {
+      "path": "assets/legacy/leash.png",
+      "bytes": 782675,
+      "sha256": "cf0c8225942b9ab2276aa745a565e9a1b738533b6cda27e1a9c4d51c6c5da047"
+    },
+    {
+      "path": "assets/legacy/mask.png",
+      "bytes": 993186,
+      "sha256": "74401ae1e63028f76a8e3ca08b475d68593157065b00e0b01b0d019e0b71ddcc"
+    },
+    {
+      "path": "assets/legacy/paddle.png",
+      "bytes": 376898,
+      "sha256": "9bdab05906662403eb10d9e25b1b2379429ea9a392533a31def98bc377e1c935"
+    },
+    {
+      "path": "assets/legacy/rash-guard.png",
+      "bytes": 783273,
+      "sha256": "1a280b5503e0b18d3c0f54064edf0e9f71f92a5c3191b88ce4546522b64369d6"
+    },
+    {
+      "path": "assets/legacy/ropes.png",
+      "bytes": 2306921,
+      "sha256": "88098803aafdaddc2ced85d79c330a508dd6126b6b7a8d17d19d226dc95fb335"
+    },
+    {
+      "path": "assets/legacy/rules/check-your-rope-every-time.png",
+      "bytes": 944287,
+      "sha256": "7c9f5e911b303f13bd9b70ca056140e69ac59ffd5951b5e20cfc23277db97fb1"
+    },
+    {
+      "path": "assets/legacy/rules/dont-forget-your-leash.png",
+      "bytes": 1074753,
+      "sha256": "a124393ec7137adf8c4b3a5c8071961d3132489484b1f5c8fac0a187d3ef6911"
+    },
+    {
+      "path": "assets/legacy/rules/dont-go-by-yourself.png",
+      "bytes": 1138101,
+      "sha256": "c818fbbe35843fb6f9a6a75529e4dbeec344c60d97679f585674f8d203f1224a"
+    },
+    {
+      "path": "assets/legacy/rules/dont-ignore-the-weather-and-waves.png",
+      "bytes": 1009222,
+      "sha256": "3a731fb0ce591e72858c21a1b18dd5c0b4705f282c6832ec9a2897dedcf271c7"
+    },
+    {
+      "path": "assets/legacy/rules/dont-panic-stay-calm.png",
+      "bytes": 1036053,
+      "sha256": "a7604fc4ca09d188c54d25dddc64b10c6fe07618291f0259c3e195eb50bb3dc6"
+    },
+    {
+      "path": "assets/legacy/rules/dont-stand-up-too-fast.png",
+      "bytes": 1029570,
+      "sha256": "42b097867b724063e89a2b9280fc9149bd08dfef3271bc6e06915a57a9df0a00"
+    },
+    {
+      "path": "assets/legacy/rules/dont-touch-it.png",
+      "bytes": 1248696,
+      "sha256": "97037ee4d1d0967ddb006ef876306e2b39076bc029096b4decf7387faca560f3"
+    },
+    {
+      "path": "assets/legacy/rules/just-breathe-dont-panic.png",
+      "bytes": 1111750,
+      "sha256": "d6df088af3f30303aa43fab1f951015ce94ee1aebd1a2569f261e2aa866c1962"
+    },
+    {
+      "path": "assets/legacy/rules/no-diving.png",
+      "bytes": 840760,
+      "sha256": "5460daf8ffaa941b9ef54314f4d2ee27e6a0bf4954c94a7ea76532121303f58a"
+    },
+    {
+      "path": "assets/legacy/rules/no-gear-no-climb.png",
+      "bytes": 1207696,
+      "sha256": "6625df4b42dc623e52bfdd113f92b35473fc343f19ce48f7704e59de3adc0113"
+    },
+    {
+      "path": "assets/legacy/rules/no-pushing.png",
+      "bytes": 910296,
+      "sha256": "8cdf4d4fd50309fda7f36170321faf5ac245ae1ea06c2bf080a2233ecfb8b97f"
+    },
+    {
+      "path": "assets/legacy/rules/no-running.png",
+      "bytes": 801236,
+      "sha256": "da31090acb1b2a7b4dd7e15d5191b296ffe12d1024921e8282fd42533bb28e6e"
+    },
+    {
+      "path": "assets/legacy/snorkel-vest.png",
+      "bytes": 1197658,
+      "sha256": "ac6779be05668346575313129f2423e1a3b21e61a5d00b1a0bf9feaa44c50273"
+    },
+    {
+      "path": "assets/legacy/snorkel.png",
+      "bytes": 502253,
+      "sha256": "5b14779ecd073f5f619f4d1d100269c3a2869665fb4cecfc9097600339d93f67"
+    },
+    {
+      "path": "assets/legacy/sport-cards/rock-climbing-card.png",
+      "bytes": 1842334,
+      "sha256": "b755c5177b34428fb1348b9b37d668bc8c64d5e5500756ba5cc8f12411715337"
+    },
+    {
+      "path": "assets/legacy/sport-cards/snorkeling-card.png",
+      "bytes": 1927749,
+      "sha256": "6946257ee937b65e61cccad5386e1b53275d8f9fc64451d5c88cb0850732a26e"
+    },
+    {
+      "path": "assets/legacy/sport-cards/sup-card.png",
+      "bytes": 1837916,
+      "sha256": "786e1b1ced0458e0e8eb43b1d830f0603a5f4003c172befaf486e91344d5a003"
+    },
+    {
+      "path": "assets/legacy/sport-cards/swimming-card.png",
+      "bytes": 1928665,
+      "sha256": "6d27a3da505fc44bab90efe434a5440b0c7b511ce0a3be774f687ea0ed57c4a7"
+    },
+    {
+      "path": "assets/legacy/sup-board.png",
+      "bytes": 799863,
+      "sha256": "4d77e23dae08ad00889bd5a5aefeb91f29361837537b23c30f8127aa7db322a2"
+    },
+    {
+      "path": "assets/legacy/sup-vest.png",
+      "bytes": 1026086,
+      "sha256": "137bf8cfa5eb3cbf74043d474949c7f66dad8c229dc32d98865280da24a06aca"
+    },
+    {
+      "path": "assets/legacy/swim-vest.png",
+      "bytes": 1122607,
+      "sha256": "3439acc1e799be249c4057a97c5e2f98f537af86f0bec8a5a4dafc28ebb2c532"
+    },
+    {
+      "path": "assets/legacy/swimming-cap.png",
+      "bytes": 820232,
+      "sha256": "fa347065d262ec61754e1f95339682fd022c7bdf42f14b7f3eb2522492975641"
+    },
+    {
+      "path": "assets/legacy/swimming-goggles.png",
+      "bytes": 972694,
+      "sha256": "5e833a34de0bcb872d10627a63b167db37bd04b6c60b3f115cfe690e81e04268"
+    },
+    {
+      "path": "assets/legacy/swimsuit.png",
+      "bytes": 714707,
+      "sha256": "6cc2d951fba499380e2ddaef1bd44816610108ce54786725978956be18aa6ec5"
+    },
+    {
+      "path": "assets/legacy/ui/timer-clock.png",
+      "bytes": 412635,
+      "sha256": "89af93067b46eac1bdaa562e21f51d94cb4966393a95e010b170c71e39737f1c"
+    },
+    {
+      "path": "icons/word-pop-battle-icon-1024.png",
+      "bytes": 1350551,
+      "sha256": "0c7c502908c650b9e65c32d440700d79f02a1e0b84e206b7367060df73e6aa0f"
+    },
+    {
+      "path": "icons/word-pop-battle-icon-120.png",
+      "bytes": 34559,
+      "sha256": "d6fe4ab8a68faef5ccc28141b055b872a739518a4366e53f137b7ccf2bb5bf1d"
+    },
+    {
+      "path": "icons/word-pop-battle-icon-152.png",
+      "bytes": 53192,
+      "sha256": "b13b4c1c9328659cd0257a2ffdfecf69d2d0b52a8bdc72960260887a4ecd0d85"
+    },
+    {
+      "path": "icons/word-pop-battle-icon-167.png",
+      "bytes": 63157,
+      "sha256": "0bc79cfb5813456f7ea183fb9990951f080ddd0f2f2869e38dfbe1e65c382be4"
+    },
+    {
+      "path": "icons/word-pop-battle-icon-180.png",
+      "bytes": 72374,
+      "sha256": "14538fd82bdaf7878baea16db5ddf9a7711f2b082763b0ce80ee7b77913ff8a9"
+    },
+    {
+      "path": "icons/word-pop-battle-icon-192.png",
+      "bytes": 81285,
+      "sha256": "78d3705e5e17df5ad992c4d75452e362cbd36cd3d418bec88424f307e3fec635"
+    },
+    {
+      "path": "icons/word-pop-battle-icon-512.png",
+      "bytes": 453310,
+      "sha256": "6f0c69b1648792ed33d2543d90bc89a60dbb9c406363c6c714b46f19c0204058"
+    }
+  ]
+}

@@ -2,29 +2,32 @@
   "name": "Word Pop Battle",
   "short_name": "Word Pop",
   "description": "A fullscreen classroom word battle game.",
- "id": "./index.html",
-"start_url": "./index.html",
+  "id": "./index.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "fullscreen",
-  "display_override": ["fullscreen", "standalone"],
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
   "orientation": "landscape",
   "background_color": "#045b8f",
   "theme_color": "#045b8f",
   "icons": [
     {
-      "src": "word-pop-battle-icons/word-pop-battle-icon-192.png",
+      "src": "./icons/word-pop-battle-icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "word-pop-battle-icons/word-pop-battle-icon-512.png",
+      "src": "./icons/word-pop-battle-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "word-pop-battle-icons/word-pop-battle-icon-1024.png",
+      "src": "./icons/word-pop-battle-icon-1024.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any"
